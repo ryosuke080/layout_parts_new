@@ -29,7 +29,7 @@
           <!--
                ブロック要素内のテキスト(or インライン要素)の左右中央寄せに関してはtext-align:centerを設定することで簡単にできます。
                ただ、ブロック要素そのものの左右中央寄せは少し工夫をしないとできません。
-               大きく分けて2通りのやり方があるのですが、それが以下の問題の2つです。
+               大きく分けて2通りのやり方があるのですが、それが以下の問題の2つです。 
                中央寄せするブロックの横幅が固定の場合は上の方法が、可変の場合は下の方法が向いています。
           -->
           <div class="q6 q6--horizontal">
@@ -41,8 +41,8 @@
             <!-- Q6-1の回答はここに書いてね -->
             <!-- 新たにタグは追加しなくてもできます。 -->
             <div class="q6__box">
-              <div>
-                <p>text-align</p>
+              <div class="q7__box">
+                <p class="textA">text-align</p>
               </div>
             </div>
             <!-- Q6-1の回答はここに書いてね -->
@@ -54,7 +54,9 @@
             <!-- Q6-1の回答はここに書いてね -->
             <!-- 新たにタグは追加しなくてもできます。 -->
             <div class="q6__box">
-              <p>margin</p>
+                <div class="q7__box">
+              <p class=textB>margin</p>
+            </div>
             </div>
             <!-- Q6-1の回答はここに書いてね -->
           </div>
@@ -85,8 +87,8 @@
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
           <!-- 新たにタグは追加しなくてもできます。 -->
           <div class="q6 q6--around">
-            <div>
-              <p>table</p>
+            <div class="q8__box">
+              <p class="textC">table</p>
             </div>
           </div>
           <!-- Q6-2の回答はここに書いてね -->
@@ -100,7 +102,9 @@
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
           <!-- 新たにタグは追加しなくてもできます。 -->
           <div class="q6 q6--around">
-            <p>flex</p>
+            <div class="q9_box">          
+            <p class="textD">flex</p>
+            </div>
           </div>
           <!-- Q6-2の回答はここに書いてね -->
           <div class="q6 q6--position">
@@ -129,7 +133,7 @@
             <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
             <!-- 新たにタグは追加しなくてもできます。 -->
             <div class="q6__box is-flexible">
-              <p class="q6__box__inner">position可変</p>
+              <p class="q6__box__inner" class="q6__box__inner_second">position可変</p>
             </div>
             <!-- Q6-2の回答はここに書いてね -->
           </div>
