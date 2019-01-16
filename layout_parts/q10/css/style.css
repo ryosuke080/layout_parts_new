@@ -18,21 +18,22 @@
 .balloon:before,
 .balloon:after {
     position: absolute;
-    left: 8%;
-    top: 100%;
-    border: solid transparent;
-    content: '';
-    height: 0;
+    bottom: 0;
+    left: 0;
     width: 0;
-    border-width: 25px;
+    height: 0;
+    border: 20px solid transparent;
+    content: "";
 }
 .balloon:before {
-    border-top-color: #000000;
-    margin-left: -10px;
+    bottom: -45px;
+    left: 30px;
+    border-top-color: #222;
 }
 .balloon:after {
-    border-top-color: #FFFFFF;
-    margin: -8px 0 0 -10px;
+    bottom: -38px;
+    left: 30px;
+    border-top-color: #fff;
 }
 
 

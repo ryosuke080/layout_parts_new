@@ -1,31 +1,24 @@
   @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.box{
+.content{
+  padding: 20px;
   width: 940px;
   background-color: #eff3f4;
   margin:0 auto;
 }
-.content{
-  padding: 20px;
-}
-.thumb_1{
+.thumb_left{
   padding-bottom: 10px;
   padding-right: 20px;
   float:left;
 }
-.q1__content__text{
+.content__text{
   font-size:18px;
   line-height: 22px;
   word-break: break-all;
   margin:0 auto;
 }
-.q2__content__text{
-  font-size:18px;
-  line-height: 22px;
-  word-break: break-all;
-}
-.thumb_2{
+.thumb_right{
   padding-bottom: 10px;
   padding-left: 20px;
   float:right;

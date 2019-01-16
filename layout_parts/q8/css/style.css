@@ -295,3 +295,7 @@
 .side_text:focus {
   box-shadow: 0 0 7px #00BCD4;
 }
+.main_bottom_hoge:active {
+  background-color: #FFF;
+  color: #00BCD4;
+}
